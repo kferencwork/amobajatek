@@ -1699,6 +1699,7 @@ function loadPakolos() {
         last_x = x_1;
         db9.textContent = last_x;
         ki_kovetkezik = "O";
+        startsWithX()
       } else if (
         db9.textContent === "" &&
         last_x === x_1 &&
@@ -1708,6 +1709,7 @@ function loadPakolos() {
         last_x = x_2;
         db9.textContent = last_x;
         ki_kovetkezik = "O";
+        startsWithX()
       } else if (
         db9.textContent === "" &&
         last_x === x_2 &&
@@ -1717,6 +1719,7 @@ function loadPakolos() {
         last_x = x_3;
         db9.textContent = last_x;
         ki_kovetkezik = "O";
+        startsWithX()
       } else if (
         db9.textContent === "" &&
         last_x === x_3 &&
@@ -1726,6 +1729,7 @@ function loadPakolos() {
         last_x = x_1;
         db9.textContent = last_x;
         ki_kovetkezik = "O";
+        startsWithX()
       } else if (
         db9.textContent === "" &&
         last_o === null &&
@@ -1735,6 +1739,7 @@ function loadPakolos() {
         last_o = o_1;
         db9.textContent = last_o;
         ki_kovetkezik = "X";
+        startsWithO()
       } else if (
         db9.textContent === "" &&
         last_o === o_1 &&
@@ -1744,6 +1749,7 @@ function loadPakolos() {
         last_o = o_2;
         db9.textContent = last_o;
         ki_kovetkezik = "X";
+        startsWithO()
       } else if (
         db9.textContent === "" &&
         last_o === o_2 &&
@@ -1753,6 +1759,7 @@ function loadPakolos() {
         last_o = o_3;
         db9.textContent = last_o;
         ki_kovetkezik = "X";
+        startsWithO()
       } else if (
         db9.textContent === "" &&
         last_o === o_3 &&
@@ -1762,6 +1769,7 @@ function loadPakolos() {
         last_o = o_1;
         db9.textContent = last_o;
         ki_kovetkezik = "X";
+        startsWithO()
       }
       if (db9.textContent.startsWith("X")) {
         db9.style.color = "red";
