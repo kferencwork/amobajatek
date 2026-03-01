@@ -1,0 +1,79 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #1e272e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#FELSO-RESZ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#FELSO-RESZ #CIM span {
+  font-size: 72px;
+  filter: drop-shadow(0px 5px 0px #000000);
+}
+
+#FELSO-RESZ #ALCIM span {
+  font-size: 36px;
+  filter: drop-shadow(0px 2.5px 0px #000000);
+}
+
+#ALSO-RESZ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#ALSO-RESZ #JATEK {
+  width: 200px;
+  height: 75px;
+
+  background-color: #485460;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(0px 0px 5px #000000);
+
+  cursor: pointer;
+}
+
+#ALSO-RESZ #JATEK span {
+  font-size: 36px;
+  filter: drop-shadow(0px 2.5px 0px #000000);
+}
+
+#ALSO-RESZ #KILEPES {
+  width: 200px;
+  height: 75px;
+
+  background-color: #485460;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(0px 0px 5px #000000);
+
+  cursor: pointer;
+}
+
+#ALSO-RESZ #KILEPES span {
+  font-size: 36px;
+  filter: drop-shadow(0px 2.5px 0px #000000);
+}
